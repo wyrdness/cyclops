@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/cyclops",
     "maintainers": [
       {
@@ -18,416 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "cyclops",
     "name": "Cyclops",
-    "aliases": [
-      {
-        "name": "Cyclopes",
-        "language": "Greek",
-        "meaning": "Plural form"
-      },
-      {
-        "name": "Kyklops",
-        "language": "Ancient Greek",
-        "meaning": "Original Greek spelling"
-      },
-      {
-        "name": "Kyklopes",
-        "language": "Ancient Greek",
-        "meaning": "Original plural form"
-      }
-    ],
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Giant",
+    "subcategory": "One-eyed",
     "tags": [
-      "greek-mythology",
-      "giant",
-      "one-eyed",
-      "blacksmith",
-      "primitive",
-      "odyssey"
+      "folklore",
+      "mythology"
     ],
-    "status": "mythological",
+    "status": "documented",
     "description": {
-      "summary": "One-eyed giants from Greek mythology. Two distinct traditions exist: savage shepherds (Homeric) and divine craftsmen who forged Zeus' thunderbolts (Hesiodic).",
-      "full": "The Cyclopes (singular: Cyclops) are one-eyed giants from Greek mythology, characterized by a single large eye in the center of their forehead and enormous size and strength. Two distinct mythological traditions exist: the Homeric Cyclopes are lawless, savage shepherds dwelling in caves and eating human flesh, most famously Polyphemus who was blinded by Odysseus; the Hesiodic Cyclopes (Brontes, Steropes, and Arges) are divine craftsmen, sons of Uranus and Gaia, who forged Zeus' thunderbolts, Poseidon's trident, and Hades' helm of invisibility. In later traditions, Cyclopes served as blacksmiths for Hephaestus, working in forges beneath volcanoes. Their single eye may have originated from ancient misinterpretation of dwarf elephant skulls, whose large nasal cavity resembles an eye socket."
+      "summary": "The **Cyclopes** (singular: Cyclops) are one-eyed giants from Greek mythology, characterized by a single large eye in the center of their forehead and enormous size and strength.",
+      "full": "The **Cyclopes** (singular: Cyclops) are one-eyed giants from Greek mythology, characterized by a single large eye in the center of their forehead and enormous size and strength. Two distinct mythological traditions exist: 1. **Homeric Cyclopes**: Lawless, savage shepherds dwelling in caves and eating human flesh, most famously **Polyphemus** who was blinded by Odysseus 2. **Hesiodic Cyclopes**: Divine craftsmen (**Brontes**, **Steropes**, and **Arges**), sons of Uranus and Gaia, who forged Zeus' thunderbolts, Poseidon's trident, and Hades' helm of invisibility In later traditions, Cyclopes served as blacksmiths for Hephaestus, working in forges beneath volcanoes like Mount Etna."
     },
     "etymology": {
-      "origin": "From Ancient Greek Κύκλωψ (Kúklōps), from κύκλος (kúklos) 'circle' + ὤψ (ṓps) 'eye'",
-      "meaning": "Round-eyed, circle-eyed",
-      "first_use": "8th century BCE (Homer, Hesiod)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Giant",
-      "subtype": "One-eyed",
-      "variant": "Greek (multiple traditions)"
+      "type": "One-eyed",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "polyphemus",
-        "name": "Polyphemus",
-        "relationship": "individual",
-        "description": "Most famous Cyclops, blinded by Odysseus"
-      },
-      {
-        "id": "odysseus",
-        "name": "Odysseus",
-        "relationship": "antagonist",
-        "description": "Greek hero who blinded Polyphemus"
-      },
-      {
-        "id": "hephaestus",
-        "name": "Hephaestus",
-        "relationship": "master",
-        "description": "God of forge, employer of Cyclopes"
-      }
-    ]
+    "related_phenomena": []
   },
-
-  "types": {
-    "hesiodic": {
-      "name": "Hesiodic Cyclopes",
-      "description": "Divine craftsmen, sons of Uranus and Gaia",
-      "members": [
-        {
-          "name": "Brontes",
-          "meaning": "Thunder",
-          "role": "Divine blacksmith"
-        },
-        {
-          "name": "Steropes",
-          "meaning": "Lightning",
-          "role": "Divine blacksmith"
-        },
-        {
-          "name": "Arges",
-          "meaning": "Bright, Vivid",
-          "role": "Divine blacksmith"
-        }
-      ],
-      "characteristics": "Divine beings, skilled craftsmen, imprisoned in Tartarus by Uranus, freed by Zeus",
-      "creations": [
-        "Zeus' thunderbolts",
-        "Poseidon's trident",
-        "Hades' helm of invisibility"
-      ],
-      "nature": "Civilized, divine, allied with Olympian gods"
-    },
-    "homeric": {
-      "name": "Homeric Cyclopes",
-      "description": "Savage, lawless shepherds dwelling in caves",
-      "famous_individual": "Polyphemus",
-      "characteristics": "Uncivilized, pastoral, cannibalistic, no laws or social structure",
-      "habitat": "Caves, isolated regions (Sicily in later accounts)",
-      "behavior": "Shepherding, isolationism, cannibalism",
-      "nature": "Primitive, barbaric, hostile to civilization"
-    },
-    "later_tradition": {
-      "name": "Later Cyclopes",
-      "description": "Blacksmiths working for Hephaestus",
-      "location": "Forges beneath volcanoes (Mount Etna)",
-      "role": "Craftsmen forging divine weapons and armor",
-      "nature": "Skilled artisans, servants of Hephaestus"
-    }
-  },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "description": "Giant stature, significantly larger than humans",
-        "confidence": "mythological"
-      },
-      "features": [
-        {
-          "feature": "Single eye",
-          "description": "One large round eye in center of forehead",
-          "frequency": "always"
-        },
-        {
-          "feature": "Enormous size",
-          "description": "Giant stature, towering over humans",
-          "frequency": "always"
-        },
-        {
-          "feature": "Immense strength",
-          "description": "Superhuman physical power",
-          "frequency": "always"
-        },
-        {
-          "feature": "Powerful build",
-          "description": "Muscular, robust physique",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Humanoid giants with single eye. Otherwise human in form, though often depicted as brutish or primitive (Homeric) or noble (Hesiodic)."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Superhuman strength",
-        "description": "Capable of moving massive boulders, overwhelming humans",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Divine craftsmanship",
-        "description": "Forging legendary weapons (Hesiodic/later Cyclopes)",
-        "frequency": "varies",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Stone throwing",
-        "description": "Hurling massive rocks with devastating accuracy",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Shepherding",
-        "description": "Tending flocks of sheep and goats (Homeric)",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "varies by tradition",
-      "disposition": "varies (hostile/savage in Homer, neutral/allied in Hesiod)",
-      "social_structure": "varies (solitary in Homer, organized in Hesiod)",
-      "habitat_preference": [
-        "caves (Homeric)",
-        "volcanic forges (later tradition)",
-        "isolated regions",
-        "Tartarus (imprisoned, Hesiodic)"
-      ],
-      "diet": "Varies: human flesh (Polyphemus), normal food (others)",
-      "patterns": [
-        "Lawless individualism (Homeric)",
-        "Divine service (Hesiodic)",
-        "Craftsmanship (Hesiodic/later)",
-        "Isolationism (Homeric)"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Various mythological locations depending on tradition",
-      "continents": ["Mythological"],
-      "regions": [
-        "Sicily (later tradition for Homeric Cyclopes)",
-        "Tartarus (Hesiodic Cyclopes imprisoned)",
-        "Mount Etna (later Cyclopes' forge)",
-        "Various isolated regions"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "8th century BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Homer's Odyssey, Hesiod's Theogony"
-      },
-      "cultural_period": "Ancient Greek civilization, primordial beings"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Greek mythology. Possible origins in misidentification of dwarf elephant skulls (nasal cavity resembles single eye socket).",
-      "earliest_accounts": "Homer's Odyssey (Polyphemus), Hesiod's Theogony (divine Cyclopes)",
-      "folklore_connections": "Giants, one-eyed beings in various cultures, forge gods and volcanoes."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "circa 8th century BCE",
-        "event": "Homer's Odyssey",
-        "significance": "Polyphemus episode establishes savage Cyclops tradition",
-        "source": "Odyssey Book 9"
-      },
-      {
-        "date": "circa 8th century BCE",
-        "event": "Hesiod's Theogony",
-        "significance": "Divine Cyclopes (Brontes, Steropes, Arges) as craftsmen",
-        "source": "Theogony"
-      },
-      {
-        "date": "5th century BCE",
-        "event": "Classical Greek elaboration",
-        "significance": "Cyclopes established in Greek art and drama",
-        "source": "Euripides' Cyclops (satyr play)"
-      },
-      {
-        "date": "Hellenistic period",
-        "event": "Sicilian localization",
-        "significance": "Cyclopes specifically associated with Sicily and Mount Etna",
-        "source": "Various Hellenistic sources"
-      },
-      {
-        "date": "1914",
-        "event": "Othenio Abel hypothesis",
-        "significance": "Paleontologist suggests dwarf elephant skulls inspired Cyclops myth",
-        "source": "Scientific journals"
-      }
-    ],
-    "modern_era": "Cyclopes remain iconic one-eyed giants in Western culture. The Polyphemus story is a classic tale of cunning defeating brute strength. Modern interpretations explore themes of civilization vs. barbarism and the power of intelligence."
+    "timeline": []
   },
-
-  "famous_cyclopes": {
-    "polyphemus": {
-      "tradition": "Homeric",
-      "parentage": "Son of Poseidon and Thoosa",
-      "location": "Cave on an island (later identified as Sicily)",
-      "occupation": "Shepherd",
-      "story": "Trapped Odysseus and crew in cave, ate several men. Odysseus got him drunk, blinded him with heated stake while calling himself 'Nobody.' When other Cyclopes asked who hurt him, Polyphemus said 'Nobody,' so they didn't help. Odysseus escaped by clinging to underside of sheep.",
-      "curse": "Called on father Poseidon to curse Odysseus' voyage home",
-      "significance": "Most famous Cyclops in mythology"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "brontes": {
-      "tradition": "Hesiodic",
-      "meaning": "Thunder",
-      "parentage": "Son of Uranus and Gaia",
-      "role": "Divine blacksmith who forged Zeus' thunderbolts",
-      "significance": "One of the three original Cyclopes"
-    },
-    "steropes": {
-      "tradition": "Hesiodic",
-      "meaning": "Lightning",
-      "parentage": "Son of Uranus and Gaia",
-      "role": "Divine blacksmith who forged Zeus' thunderbolts",
-      "significance": "One of the three original Cyclopes"
-    },
-    "arges": {
-      "tradition": "Hesiodic",
-      "meaning": "Bright, Vivid",
-      "parentage": "Son of Uranus and Gaia",
-      "role": "Divine blacksmith who forged Zeus' thunderbolts",
-      "significance": "One of the three original Cyclopes"
-    }
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
-  "symbolism": {
-    "ancient": [
-      "Primitive barbarism vs. civilization (Homeric)",
-      "Divine craftsmanship and volcanic power (Hesiodic)",
-      "Lack of civilization and law (Homeric)",
-      "Raw strength without cunning",
-      "Volcanic forges and natural power"
-    ],
-    "modern": [
-      "The importance of intelligence over brute force",
-      "Isolation and lack of society",
-      "Monstrous otherness",
-      "Craftsmanship and creation"
-    ]
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
-  "possible_origins": {
-    "dwarf_elephant_theory": {
-      "description": "Paleontologist Othenio Abel (1914) proposed that ancient Greeks finding dwarf elephant skulls could have misinterpreted the large nasal cavity as a single eye socket",
-      "species": "Mediterranean dwarf elephants (extinct)",
-      "evidence": "Dwarf elephant skulls found in Mediterranean caves; large central nasal cavity",
-      "credibility": "Widely discussed theory, though not definitively proven"
-    }
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Odysseus and the triumph of cunning",
-        "Divine craftsmen forging god-weapons",
-        "Volcanic forges beneath mountains"
-      ],
-      "stories": [
-        "Odysseus and Polyphemus ('Nobody' trick)",
-        "Cyclopes forging Zeus' thunderbolts",
-        "Cyclopes imprisoned in Tartarus",
-        "Cyclopes working for Hephaestus"
-      ]
-    },
-    "ancient_greek": {
-      "significance": "Symbol of barbarism (Homeric) and divine power (Hesiodic)",
-      "symbolism": [
-        "Lack of civilization and law",
-        "Primordial power",
-        "Divine craftsmanship",
-        "Volcanic/forge associations"
-      ],
-      "artistic_depictions": "Common on Greek pottery, especially Odysseus/Polyphemus scenes"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Homer's Odyssey",
-        "Virgil's Aeneid",
-        "Euripides' Cyclops (satyr play)",
-        "Rick Riordan's Percy Jackson series",
-        "Ray Harryhausen's designs (iconic)"
-      ],
-      "film_tv": [
-        "The 7th Voyage of Sinbad (1958) - iconic Harryhausen design",
-        "Ulysses (1954)",
-        "Percy Jackson & the Olympians: Sea of Monsters (2013)",
-        "Clash of the Titans franchise",
-        "The Simpsons parodies",
-        "Futurama parodies"
-      ],
-      "games": [
-        "God of War series",
-        "Assassin's Creed Odyssey",
-        "Dungeons & Dragons",
-        "Age of Mythology",
-        "Total War series"
-      ],
-      "other": [
-        "Comics (Marvel's Cyclops - different character)",
-        "X-Men character name reference",
-        "Heavy metal album art"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "homer-odyssey",
-      "type": "ancient_text",
-      "title": "Odyssey",
-      "authors": ["Homer"],
-      "date": "circa 8th century BCE",
-      "description": "Book 9: Polyphemus episode"
-    },
-    {
-      "id": "hesiod-theogony",
-      "type": "ancient_text",
-      "title": "Theogony",
-      "authors": ["Hesiod"],
-      "date": "circa 8th century BCE",
-      "description": "Divine Cyclopes as craftsmen"
-    },
-    {
-      "id": "euripides-cyclops",
-      "type": "ancient_text",
-      "title": "Cyclops",
-      "authors": ["Euripides"],
-      "date": "circa 408 BCE",
-      "description": "Only surviving satyr play, retells Polyphemus story"
-    },
-    {
-      "id": "virgil-aeneid",
-      "type": "ancient_text",
-      "title": "Aeneid",
-      "authors": ["Virgil"],
-      "date": "29-19 BCE",
-      "description": "Book 3: Aeneas encounters Cyclopes in Sicily"
-    },
-    {
-      "id": "abel-1914",
-      "type": "article",
-      "title": "Die Sagen von Riesen und Zwergen in der Vorstellung der Völker",
-      "authors": ["Othenio Abel"],
-      "date": "1914",
-      "description": "Proposes dwarf elephant skull origin for Cyclops myth"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
