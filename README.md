@@ -1,370 +1,188 @@
 # Cyclops
 
-> *"Nobody has blinded me! Nobody is killing me!"* — Polyphemus
+> A class of one-eyed giants in Greek mythology. Hesiod's three primordial Cyclopes are divine smiths who forge Zeus' thunderbolts; Homer's Cyclopes are lawless cave-dwelling shepherds, most famously Polyphemus, blinded by Odysseus.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-mythological-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `cyclops` |
 | **Category** | MYTHOLOGICAL_CREATURE |
-| **Classification** | Giant / One-eyed |
-| **First Recorded** | circa 8th century BCE (Homer, Hesiod) |
-| **Primary Region** | Greek Mythology |
-| **Status** | Mythological |
+| **Subcategory** | One-eyed giant |
+| **First recorded** | -0700-01-01 |
+| **Primary range** | Mythologically situated across the Greek world: the island of the Cyclopes in the Odyssey (often identified by ancient and modern commentators with Sicily), the volcanic forges beneath Mount Etna, and the Mycenaean citadels of the Argolid |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The **Cyclopes** (singular: Cyclops) are one-eyed giants from Greek mythology, characterized by a single large eye in the center of their forehead and enormous size and strength.
-
-Two distinct mythological traditions exist:
-
-1. **Homeric Cyclopes**: Lawless, savage shepherds dwelling in caves and eating human flesh, most famously **Polyphemus** who was blinded by Odysseus
-2. **Hesiodic Cyclopes**: Divine craftsmen (**Brontes**, **Steropes**, and **Arges**), sons of Uranus and Gaia, who forged Zeus' thunderbolts, Poseidon's trident, and Hades' helm of invisibility
-
-In later traditions, Cyclopes served as blacksmiths for Hephaestus, working in forges beneath volcanoes like Mount Etna.
+The Cyclopes (singular: Cyclops; Greek Κύκλωψ, 'round-eyed') are one-eyed giants of ancient Greek mythology. Greek tradition recognises three groups: (1) the Hesiodic Cyclopes — Brontes, Steropes, and Arges — sons of Uranus and Gaia, primordial divine smiths who forge Zeus's thunderbolts and the weapons of the other Olympians (Hesiod, Theogony 139–146); (2) the Homeric Cyclopes — uncivilised, pastoral cave-dwellers without laws, agriculture, or shipcraft, exemplified by Polyphemus (Homer, Odyssey 9), whom Odysseus blinds to escape his cave; and (3) the so-called 'wall-builder' Cyclopes credited by later authors (e.g. Pausanias) with constructing the massive 'Cyclopean' walls of Mycenae, Tiryns, and other Bronze-Age citadels. Later Latin authors (notably Virgil and Ovid) place the Hesiodic Cyclopes in volcanic forges beneath Mount Etna, working as assistants to Hephaestus/Vulcan. The palaeontologist Othenio Abel proposed in 1914 that the dwarf-elephant skulls of Mediterranean islands such as Sicily, Cyprus, and Crete — whose central nasal cavity could be mistaken for a giant eye-socket — may have inspired the one-eyed giant motif; this remains a popular but unproven hypothesis.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Cyclopes | Greek (plural) | round-eyed |
+| Kyklōps / Κύκλωψ | Ancient Greek |  |
+| Polyphemus | Greek | named cyclops of Homer's Odyssey |
+| Brontes | Greek | Thunderer; Hesiodic divine smith |
+| Steropes | Greek | Lightning-maker; Hesiodic divine smith |
+| Arges | Greek | Bright; Hesiodic divine smith |
 
-### Primary Name
-- **Cyclops** — From Ancient Greek Κύκλωψ (Kúklōps), from κύκλος (kúklos) "circle" + ὤψ (ṓps) "eye" = "Round-eyed" or "Circle-eyed"
+## Etymology
 
-### Alternative Names
-
-| Name | Language | Meaning |
-|------|----------|---------|
-| Cyclopes | Greek | Plural form |
-| Kyklops | Ancient Greek | Original spelling (singular) |
-| Kyklopes | Ancient Greek | Original plural |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: MYTHOLOGICAL_CREATURE
-├── Type: Giant
-├── Subtype: One-eyed
-└── Variant: Greek (multiple traditions)
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| Polyphemus | Individual | Most famous Cyclops, blinded by Odysseus |
-| Odysseus | Antagonist | Greek hero who blinded Polyphemus |
-| Hephaestus | Master | God of forge, employer of Cyclopes |
+- **Origin**: Ancient Greek Κύκλωψ (Kyklōps), from κύκλος (kýklos, 'circle') + ὤψ (ōps, 'eye, face').
+- **Meaning**: 'Round-eyed' or 'circle-eyed'; commonly construed as a reference to the single round eye in the centre of the forehead.
+- **First use**: Attested in Hesiod's Theogony (c. 700 BCE) and in Homer's Odyssey (c. 8th century BCE).
 
 ---
+## Related Phenomena
 
-## Types of Cyclopes
-
-### 1. Hesiodic Cyclopes (Divine Craftsmen)
-
-**Nature**: Divine beings, sons of Uranus (Sky) and Gaia (Earth)
-
-**The Three Brothers**:
-
-| Name | Meaning | Role |
-|------|---------|------|
-| **Brontes** | Thunder | Forger of Zeus' thunderbolts |
-| **Steropes** | Lightning | Forger of Zeus' thunderbolts |
-| **Arges** | Bright, Vivid | Forger of Zeus' thunderbolts |
-
-**Divine Creations**:
-- Zeus' thunderbolts
-- Poseidon's trident
-- Hades' helm of invisibility
-
-**Story**: Imprisoned in Tartarus by their father Uranus, later freed by Zeus during the Titanomachy. In gratitude, they forged the legendary weapons that helped the Olympians defeat the Titans.
-
-**Nature**: Civilized, skilled, allied with the Olympian gods
+- [Fenrir](../fenrir/) — _related_: Norse mythological giant being / monster cycle
+- [Minotaur](../minotaur/) — _related_: Other monstrous Greek mythological creature
+- [Centaur](../centaur/) — _related_: Greek mythological hybrid being
+- [Harpy](../harpy/) — _related_: Other Homeric / Hesiodic creature
+- [Gorgon](../gorgon/) — _related_: Other Greek mythological monster
 
 ---
+## Physical Description
 
-### 2. Homeric Cyclopes (Savage Shepherds)
+- **Height**: 3–12 meters _(low confidence)_
+- **Coloration**: unspecified in early sources, depicted in later art with shaggy hair and beard
+- **Morphology**: Anthropomorphic giants with a single central eye; otherwise of broadly human form.
 
-**Nature**: Lawless, uncivilized giants dwelling in caves
-
-**Characteristics**:
-- No laws or government
-- Each lives independently
-- Shepherds (sheep and goats)
-- Cannibalistic
-- Inhospitable to strangers
-
-**Location**: Isolated island (later identified as Sicily)
-
-**Famous Individual**: **Polyphemus** (see below)
-
-**Nature**: Primitive, barbaric, hostile to civilization
-
----
-
-### 3. Later Cyclopes (Hephaestus' Blacksmiths)
-
-**Location**: Forges beneath volcanoes, especially Mount Etna
-
-**Role**: Craftsmen forging divine weapons and armor for the gods
-
-**Master**: Hephaestus (god of blacksmithing and fire)
-
-**Nature**: Skilled artisans, servants of the divine forge
-
----
-
-## Characteristics
-
-### Physical Description
-
-| Attribute | Description |
-|-----------|-------------|
-| **Eye** | Single large round eye in center of forehead |
-| **Size** | Giant stature, towering over humans |
-| **Strength** | Superhuman physical power |
-| **Build** | Muscular, robust, powerful |
-
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Single eye | One large eye in forehead center | Always |
-| Enormous size | Giant, much larger than humans | Always |
-| Immense strength | Can move massive boulders | Always |
-| Powerful build | Muscular physique | Common |
+|---|---|---|
+| Single central eye | A single large eye in the middle of the forehead is the canonical defining feature in post-Hesiodic art and literature | always |
+| Gigantic stature | Sized comparable to mountains in some accounts, taller than mortal men but variable | always |
+| Pastoral or smithing equipment | Homeric Cyclopes carry shepherds' staves and stone-age tools; Hesiodic Cyclopes wield hammers and tongs | common |
 
-### Abilities
+## Reported Abilities
 
-| Ability | Description | Tradition |
-|---------|-------------|-----------|
-| Superhuman strength | Moving massive boulders, overpowering humans | All |
-| Divine craftsmanship | Forging legendary weapons | Hesiodic/Later |
-| Stone throwing | Hurling massive rocks with accuracy | Homeric |
-| Shepherding | Tending flocks | Homeric |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Forging divine weapons | Hesiodic Cyclopes craft Zeus's thunderbolts, Poseidon's trident, and Hades' helm of invisibility | always | folklore |
+| Cyclopean masonry | Later authors credit Cyclopes with raising the massive limestone walls of Mycenaean citadels | common | folklore |
+| Anthropophagy | Homer's Polyphemus devours members of Odysseus' crew | occasional | folklore |
 
----
+## Behavior
 
-## Polyphemus: The Most Famous Cyclops
-
-### Identity
-- **Parentage**: Son of Poseidon and the nymph Thoosa
-- **Occupation**: Shepherd
-- **Location**: Cave on an island (later identified as Sicily)
-- **Nature**: Savage, cannibalistic, lawless
-
-### The Odysseus Encounter
-
-**The Story**:
-
-1. **Trapped**: Odysseus and his crew landed on the island, entered Polyphemus' cave seeking hospitality. The Cyclops trapped them inside by blocking the entrance with a massive boulder.
-
-2. **Cannibalism**: Polyphemus ate several of Odysseus' men over multiple days.
-
-3. **The Plan**: Odysseus offered Polyphemus strong wine. When the Cyclops asked his name, Odysseus replied "**Nobody**" (Οὖτις, Outis).
-
-4. **The Blinding**: Once Polyphemus was drunk and asleep, Odysseus and his men heated a massive wooden stake and drove it into the Cyclops' single eye, blinding him.
-
-5. **The Trick**: When other Cyclopes heard Polyphemus screaming and asked who was attacking him, he cried "Nobody is killing me! Nobody has blinded me!" They assumed he was going mad and left.
-
-6. **The Escape**: Blind Polyphemus removed the boulder to let his sheep out to graze. Odysseus and his men escaped by clinging to the undersides of the sheep.
-
-7. **The Curse**: As Odysseus sailed away, he revealed his true name. Polyphemus called upon his father Poseidon to curse Odysseus' journey home—a curse that prolonged his voyage for ten years.
-
-**Significance**: Classic tale of cunning defeating brute strength; one of the most famous episodes in Homer's *Odyssey*.
+- **Activity**: variable
+- **Disposition**: variable
+- **Social structure**: variable
+- **Habitat**: caves on remote islands, volcanic forges (e.g. Mount Etna), coastal pastures
+- **Diet**: Pastoral (sheep, goats, milk, cheese) in the Homeric tradition; in Polyphemus' case, also human flesh
 
 ---
+## Distribution
 
-## Symbolism
+Mythologically situated across the Greek world: the island of the Cyclopes in the Odyssey (often identified by ancient and modern commentators with Sicily), the volcanic forges beneath Mount Etna, and the Mycenaean citadels of the Argolid.
 
-### Ancient Symbolism
-- **Primitive barbarism vs. civilization** (Homeric tradition)
-- **Divine craftsmanship and power** (Hesiodic tradition)
-- **Lack of law and society** (Homeric Cyclopes have no government)
-- **Raw strength without intelligence**
-- **Volcanic forges and natural power**
+### Hotspots
 
-### Modern Symbolism
-- **Intelligence triumphing over brute force** (Odysseus vs. Polyphemus)
-- **Isolation and antisocial behavior**
-- **Monstrous otherness**
-- **Skilled craftsmanship and creation**
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Mount Etna | Sicily, Italy |  | Roman literature (1st century BCE – 1st century CE) |
+| Faraglioni di Aci Trezza | Sicily, Italy |  | Antiquity to present |
+| Mycenae | Peloponnese, Greece |  | 1350–1200 BCE construction; antiquarian Cyclopean attribution from Pausanias (2nd century CE) onward |
 
 ---
+## Historical Timeline
 
-## Possible Origins: The Dwarf Elephant Theory
+| Date | Event | Significance |
+|---|---|---|
+| -0700-01-01 | Hesiod's Theogony names Brontes, Steropes, and Arges as Cyclopes who arm Zeus | Earliest extant Greek account |
+| -0700-01-01 | Homer's Odyssey 9 narrates Odysseus' encounter with Polyphemus | Most influential ancient narrative of a cyclops |
+| -0408-01-01 | Euripides' satyr play Cyclops dramatises the Polyphemus episode | Earliest fully-preserved satyr play; Athenian theatrical reception |
+| -0019-01-01 | Virgil, Aeneid 8.416–453, places the Cyclopes' forge beneath Etna | Anchors the Roman Etna tradition |
+| 0008-01-01 | Ovid, Metamorphoses 13–14, retells Polyphemus' love for Galatea | Adds the Polyphemus–Galatea romance to the canon |
+| 0175-01-01 | Pausanias 2.16.5 attributes the walls of Mycenae and Tiryns to the Cyclopes | Establishes the 'Cyclopean masonry' tradition |
+| 1914-01-01 | Othenio Abel proposes that dwarf-elephant skulls inspired the cyclops myth | Influential (though contested) palaeontological hypothesis |
 
-In 1914, paleontologist **Othenio Abel** proposed an intriguing theory:
+## Evidence
 
-**Hypothesis**: Ancient Greeks encountering dwarf elephant skulls in Mediterranean caves may have misinterpreted the large central **nasal cavity** as a single eye socket.
+### Physical
 
-**Evidence**:
-- Dwarf elephants (now extinct) lived in Mediterranean islands
-- Their skulls have been found in caves
-- The nasal cavity is large and centrally located
-- Could resemble a giant one-eyed skull
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Cyclopean walls of Mycenae and Tiryns |  | Massive limestone fortification walls at Mycenaean citadels, ascribed by ancient authors to the Cyclopes. | verified |
+### Documentary
 
-**Credibility**: Widely discussed and plausible, though not definitively proven. Offers a naturalistic explanation for the Cyclops myth.
-
----
-
-## Cultural Significance
-
-### Ancient Greece
-
-**Literary Tradition**:
-- Homer's *Odyssey* — Polyphemus episode (Book 9)
-- Hesiod's *Theogony* — Divine Cyclopes as primordial craftsmen
-- Euripides' *Cyclops* — Only surviving Greek satyr play
-
-**Symbolism**:
-- Homeric: Barbarism, lack of civilization, lawlessness
-- Hesiodic: Divine power, volcanic forges, primordial creation
-
-**Artistic Depictions**:
-- Extremely common on Greek pottery
-- Odysseus and Polyphemus scenes popular
-- Cyclopes in forge scenes
-
-### Modern Culture
-
-**Literature**:
-- Homer's *Odyssey* (still widely read)
-- Virgil's *Aeneid* (Aeneas encounters Cyclopes)
-- Rick Riordan's Percy Jackson series
-
-**Film & TV**:
-- *The 7th Voyage of Sinbad* (1958) — iconic Ray Harryhausen design
-- *Ulysses* (1954)
-- *Percy Jackson & the Olympians: Sea of Monsters* (2013)
-- *The Simpsons* and *Futurama* parodies
-
-**Games**:
-- God of War series
-- Assassin's Creed Odyssey
-- Dungeons & Dragons
-- Age of Mythology
-- Total War series
-
-**Other**:
-- X-Men character "Cyclops" (name reference, different character)
-- Fantasy art staple
-- Heavy metal imagery
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Homer, Odyssey, Book 9 |  | Episode of Odysseus' encounter with the cyclops Polyphemus. | verified |
+| Hesiod, Theogony 139–146 |  | Genealogical and functional description of the three Cyclopes. | verified |
 
 ---
+## Theories & Explanations
 
-## The Two Traditions: A Comparison
+### Scientific
 
-| Aspect | Hesiodic Cyclopes | Homeric Cyclopes |
-|--------|-------------------|------------------|
-| **Nature** | Divine craftsmen | Savage shepherds |
-| **Parentage** | Uranus & Gaia | Various (Polyphemus: son of Poseidon) |
-| **Number** | Three (Brontes, Steropes, Arges) | Many |
-| **Civilization** | Skilled, organized | Lawless, uncivilized |
-| **Occupation** | Blacksmiths | Shepherds |
-| **Location** | Tartarus, then divine forges | Caves on isolated islands |
-| **Disposition** | Allied with gods | Hostile to strangers |
-| **Diet** | Normal | Cannibalistic (Polyphemus) |
-| **Role** | Create divine weapons | Antagonists to heroes |
+**Dwarf-elephant skull hypothesis** _(Othenio Abel (1914), Adrienne Mayor)_
 
----
+The myth of one-eyed giants may have arisen from the discovery on Mediterranean islands of fossil dwarf-elephant skulls, whose enlarged central nasal cavity could be misread as a single eye socket.
 
-## Famous Cyclopes
+### Skeptical
 
-### Divine Craftsmen (Hesiodic)
+**Mythological / literary phenomenon** _(Classical philologists (consensus))_
 
-1. **Brontes** ("Thunder") — Forger of Zeus' thunderbolts
-2. **Steropes** ("Lightning") — Forger of Zeus' thunderbolts
-3. **Arges** ("Bright") — Forger of Zeus' thunderbolts
+Cyclopes are a literary and religious construct of ancient Greek civilisation, not a literal animal.
 
-### Savage Giants (Homeric)
+**Antiquarian rationalisation of Mycenaean ruins** _(Ancient writer Pausanias (interpretive), Modern classical archaeologists)_
 
-1. **Polyphemus** — Son of Poseidon, blinded by Odysseus
+The 'wall-builder' Cyclopes tradition arose as a Greek-period explanation for Bronze-Age megalithic masonry whose construction could no longer be accounted for.
 
----
 
 ## Popular Culture
 
-### Literature
-- Homer's *Odyssey*
-- Virgil's *Aeneid*
-- Euripides' *Cyclops*
-- Rick Riordan's Percy Jackson series
+**Literature**: Odyssey, Book 9 — Homer (c. 8th century BCE); Theogony — Hesiod (c. 700 BCE); Cyclops — Euripides (c. 408 BCE); Aeneid 8 — Virgil; Metamorphoses 13–14 — Ovid; The First Fossil Hunters — Adrienne Mayor (2000)
 
-### Film & TV
-- *The 7th Voyage of Sinbad* (1958)
-- *Percy Jackson & the Olympians: Sea of Monsters* (2013)
-- *The Simpsons* parodies
-- Various Greek mythology films
+**Film / TV**: The 7th Voyage of Sinbad (Ray Harryhausen, 1958); Ulysses (Mario Camerini, 1954); O Brother, Where Art Thou? (Coen brothers, 2000); Percy Jackson & the Olympians: The Lightning Thief (2010)
 
-### Games
-- God of War series
-- Assassin's Creed Odyssey
-- Dungeons & Dragons
-- Age of Mythology
+**Games**: God of War series; Assassin's Creed Odyssey; Dungeons & Dragons (since 1974)
+
+**Other**: Cyclopean masonry as an architectural term; The Cyclops in heraldic and emblematic art
 
 ---
+## Research
 
-## API Reference
+### Researchers
 
-Machine-readable data is available in [`api.json`](api.json).
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Adrienne Mayor | Stanford University | Folklorist of fossil-myth connections; The First Fossil Hunters (2000) | 1990s–present |
+| Othenio Abel | University of Vienna (palaeontology) | 1914 hypothesis linking cyclops myth to dwarf-elephant skulls | Early 20th century |
+| Walter Burkert | University of Zurich (classics) | Comparative mythological analysis of Greek monsters | 1960s–2010s |
 
-### Data Access
+### Organizations
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const cyclops = await wyrd.getPhenomenon('cyclops');
-```
+- [American School of Classical Studies at Athens](https://www.ascsa.edu.gr) — Classical archaeology including Mycenaean sites
+- [British School at Athens](https://www.bsa.ac.uk) — Greek archaeology and classical studies
 
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/cyclops/main/api.json
-```
+Continuing classical-philology and archaeological work on Bronze-Age 'Cyclopean' masonry and on the literary reception of the cyclops figure.
 
 ---
+## Sources
 
-## Sources & References
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
 
-### Primary Ancient Sources
+## How to Report a Sighting
 
-- Homer. *Odyssey* (Book 9)
-- Hesiod. *Theogony*
-- Euripides. *Cyclops*
-- Virgil. *Aeneid* (Book 3)
-
-### Modern Scholarship
-
-- Abel, Othenio (1914). Dwarf elephant skull theory
-- Various classical scholarship on Greek mythology
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

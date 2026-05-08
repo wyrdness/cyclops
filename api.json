@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/cyclops",
     "maintainers": [
       {
@@ -19,68 +19,150 @@
   "phenomenon": {
     "id": "cyclops",
     "name": "Cyclops",
-    "aliases": [],
+    "aliases": [
+      { "name": "Cyclopes", "language": "Greek (plural)", "meaning": "round-eyed" },
+      { "name": "Kyklōps / Κύκλωψ", "language": "Ancient Greek" },
+      { "name": "Polyphemus", "language": "Greek", "meaning": "named cyclops of Homer's Odyssey" },
+      { "name": "Brontes", "language": "Greek", "meaning": "Thunderer; Hesiodic divine smith" },
+      { "name": "Steropes", "language": "Greek", "meaning": "Lightning-maker; Hesiodic divine smith" },
+      { "name": "Arges", "language": "Greek", "meaning": "Bright; Hesiodic divine smith" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "One-eyed",
+    "subcategory": "One-eyed giant",
     "tags": [
-      "folklore",
-      "mythology"
+      "greek-mythology",
+      "giant",
+      "one-eyed",
+      "homer",
+      "hesiod",
+      "odyssey",
+      "smith"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Cyclopes** (singular: Cyclops) are one-eyed giants from Greek mythology, characterized by a single large eye in the center of their forehead and enormous size and strength.",
-      "full": "The **Cyclopes** (singular: Cyclops) are one-eyed giants from Greek mythology, characterized by a single large eye in the center of their forehead and enormous size and strength. Two distinct mythological traditions exist: 1. **Homeric Cyclopes**: Lawless, savage shepherds dwelling in caves and eating human flesh, most famously **Polyphemus** who was blinded by Odysseus 2. **Hesiodic Cyclopes**: Divine craftsmen (**Brontes**, **Steropes**, and **Arges**), sons of Uranus and Gaia, who forged Zeus' thunderbolts, Poseidon's trident, and Hades' helm of invisibility In later traditions, Cyclopes served as blacksmiths for Hephaestus, working in forges beneath volcanoes like Mount Etna."
+      "summary": "A class of one-eyed giants in Greek mythology. Hesiod's three primordial Cyclopes are divine smiths who forge Zeus' thunderbolts; Homer's Cyclopes are lawless cave-dwelling shepherds, most famously Polyphemus, blinded by Odysseus.",
+      "full": "The Cyclopes (singular: Cyclops; Greek Κύκλωψ, 'round-eyed') are one-eyed giants of ancient Greek mythology. Greek tradition recognises three groups: (1) the Hesiodic Cyclopes — Brontes, Steropes, and Arges — sons of Uranus and Gaia, primordial divine smiths who forge Zeus's thunderbolts and the weapons of the other Olympians (Hesiod, Theogony 139–146); (2) the Homeric Cyclopes — uncivilised, pastoral cave-dwellers without laws, agriculture, or shipcraft, exemplified by Polyphemus (Homer, Odyssey 9), whom Odysseus blinds to escape his cave; and (3) the so-called 'wall-builder' Cyclopes credited by later authors (e.g. Pausanias) with constructing the massive 'Cyclopean' walls of Mycenae, Tiryns, and other Bronze-Age citadels. Later Latin authors (notably Virgil and Ovid) place the Hesiodic Cyclopes in volcanic forges beneath Mount Etna, working as assistants to Hephaestus/Vulcan. The palaeontologist Othenio Abel proposed in 1914 that the dwarf-elephant skulls of Mediterranean islands such as Sicily, Cyprus, and Crete — whose central nasal cavity could be mistaken for a giant eye-socket — may have inspired the one-eyed giant motif; this remains a popular but unproven hypothesis."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Ancient Greek Κύκλωψ (Kyklōps), from κύκλος (kýklos, 'circle') + ὤψ (ōps, 'eye, face').",
+      "meaning": "'Round-eyed' or 'circle-eyed'; commonly construed as a reference to the single round eye in the centre of the forehead.",
+      "first_use": "Attested in Hesiod's Theogony (c. 700 BCE) and in Homer's Odyssey (c. 8th century BCE)."
     }
   },
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "One-eyed",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Giant",
+      "subtype": "One-eyed humanoid",
+      "variant": "Greek (Hesiodic / Homeric / wall-builder)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "fenrir", "name": "Fenrir", "relationship": "related", "description": "Norse mythological giant being / monster cycle" },
+      { "id": "minotaur", "name": "Minotaur", "relationship": "related", "description": "Other monstrous Greek mythological creature" },
+      { "id": "centaur", "name": "Centaur", "relationship": "related", "description": "Greek mythological hybrid being" },
+      { "id": "harpy", "name": "Harpy", "relationship": "related", "description": "Other Homeric / Hesiodic creature" },
+      { "id": "gorgon", "name": "Gorgon", "relationship": "related", "description": "Other Greek mythological monster" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 3.0, "max": 12.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["unspecified in early sources", "depicted in later art with shaggy hair and beard"],
+      "features": [
+        { "feature": "Single central eye", "description": "A single large eye in the middle of the forehead is the canonical defining feature in post-Hesiodic art and literature", "frequency": "always" },
+        { "feature": "Gigantic stature", "description": "Sized comparable to mountains in some accounts, taller than mortal men but variable", "frequency": "always" },
+        { "feature": "Pastoral or smithing equipment", "description": "Homeric Cyclopes carry shepherds' staves and stone-age tools; Hesiodic Cyclopes wield hammers and tongs", "frequency": "common" }
+      ],
+      "morphology": "Anthropomorphic giants with a single central eye; otherwise of broadly human form."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Forging divine weapons", "description": "Hesiodic Cyclopes craft Zeus's thunderbolts, Poseidon's trident, and Hades' helm of invisibility", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Cyclopean masonry", "description": "Later authors credit Cyclopes with raising the massive limestone walls of Mycenaean citadels", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Anthropophagy", "description": "Homer's Polyphemus devours members of Odysseus' crew", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["caves on remote islands", "volcanic forges (e.g. Mount Etna)", "coastal pastures"],
+      "diet": "Pastoral (sheep, goats, milk, cheese) in the Homeric tradition; in Polyphemus' case, also human flesh",
+      "patterns": [
+        "Hesiodic group: communal divine craftsmanship",
+        "Homeric group: solitary or extended-family pastoralism without shared laws",
+        "Wall-builder group: collaborative monumental construction"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Mythologically situated across the Greek world: the island of the Cyclopes in the Odyssey (often identified by ancient and modern commentators with Sicily), the volcanic forges beneath Mount Etna, and the Mycenaean citadels of the Argolid.",
+      "continents": ["Europe"],
+      "countries": ["Greece", "Italy"],
+      "regions": ["Sicily", "Mount Etna", "Argolid (Mycenae, Tiryns)", "Aeolian Islands"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Mount Etna",
+        "location": {
+          "description": "Active stratovolcano on the east coast of Sicily",
+          "country": "Italy",
+          "region": "Sicily",
+          "coordinates": { "latitude": 37.7510, "longitude": 14.9934 }
+        },
+        "peak_period": "Roman literature (1st century BCE – 1st century CE)",
+        "notes": "Virgil (Aeneid 8) and Ovid (Metamorphoses 14) place the Cyclopes' forge beneath Etna."
+      },
+      {
+        "name": "Faraglioni di Aci Trezza",
+        "location": {
+          "description": "Sea stacks off Aci Trezza, north of Catania, traditionally identified as rocks hurled by Polyphemus at Odysseus",
+          "country": "Italy",
+          "region": "Sicily",
+          "coordinates": { "latitude": 37.5650, "longitude": 15.1640 }
+        },
+        "peak_period": "Antiquity to present",
+        "notes": "Local tradition links the basalt stacks to Odyssey 9.481–486."
+      },
+      {
+        "name": "Mycenae",
+        "location": {
+          "description": "Bronze-Age citadel in the Argolid, with massive 'Cyclopean' walls",
+          "country": "Greece",
+          "region": "Peloponnese",
+          "coordinates": { "latitude": 37.7308, "longitude": 22.7561 }
+        },
+        "peak_period": "1350–1200 BCE construction; antiquarian Cyclopean attribution from Pausanias (2nd century CE) onward",
+        "notes": "Pausanias 2.16.5 attributes the walls to the Cyclopes."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "c. 700 BCE",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Hesiod, Theogony, and Homer, Odyssey"
+      },
+      "peak_activity_periods": [
+        { "period": "c. 800–500 BCE", "description": "Archaic Greek epic and lyric tradition" },
+        { "period": "1st century BCE – 1st century CE", "description": "Roman re-elaboration of the myth (Virgil, Ovid)" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Archaic Greek mythological tradition, drawing on Bronze-Age memory of Mycenaean ruins and possibly on encounters with elephant fossils on Mediterranean islands.",
+      "earliest_accounts": "Hesiod, Theogony 139–146 (c. 700 BCE), describing the three Hesiodic Cyclopes; Homer, Odyssey 9 (c. 8th century BCE), giving the Polyphemus narrative.",
+      "folklore_connections": "Compared by classicists with one-eyed beings in other Indo-European traditions; adopted into later European folklore via classical reception."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "-0700-01-01", "event": "Hesiod's Theogony names Brontes, Steropes, and Arges as Cyclopes who arm Zeus", "significance": "Earliest extant Greek account", "source": "Hesiod, Theogony 139–146" },
+      { "date": "-0700-01-01", "event": "Homer's Odyssey 9 narrates Odysseus' encounter with Polyphemus", "significance": "Most influential ancient narrative of a cyclops", "source": "Homer, Odyssey 9" },
+      { "date": "-0408-01-01", "event": "Euripides' satyr play Cyclops dramatises the Polyphemus episode", "significance": "Earliest fully-preserved satyr play; Athenian theatrical reception", "source": "Euripides, Cyclops" },
+      { "date": "-0019-01-01", "event": "Virgil, Aeneid 8.416–453, places the Cyclopes' forge beneath Etna", "significance": "Anchors the Roman Etna tradition", "source": "Virgil, Aeneid" },
+      { "date": "0008-01-01", "event": "Ovid, Metamorphoses 13–14, retells Polyphemus' love for Galatea", "significance": "Adds the Polyphemus–Galatea romance to the canon", "source": "Ovid, Metamorphoses" },
+      { "date": "0175-01-01", "event": "Pausanias 2.16.5 attributes the walls of Mycenae and Tiryns to the Cyclopes", "significance": "Establishes the 'Cyclopean masonry' tradition", "source": "Pausanias, Description of Greece" },
+      { "date": "1914-01-01", "event": "Othenio Abel proposes that dwarf-elephant skulls inspired the cyclops myth", "significance": "Influential (though contested) palaeontological hypothesis", "source": "Abel, O. (1914), Die vorzeitlichen Säugetiere" }
+    ],
+    "modern_era": "Cyclopes remain a staple of European literary, artistic, and cinematic reception of classical mythology, from Homer's Odyssey through Euripides and Virgil to modern fantasy literature, film (e.g. Ray Harryhausen's The 7th Voyage of Sinbad, 1958), comics, and video games. Classical archaeologists continue to use 'Cyclopean' as a technical term for Bronze-Age megalithic masonry."
   },
   "sightings": {
     "statistics": {
@@ -93,34 +175,122 @@
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "physical": [
+      {
+        "id": "cyclops-evidence-cyclopean-walls",
+        "type": "architecture",
+        "name": "Cyclopean walls of Mycenae and Tiryns",
+        "description": "Massive limestone fortification walls at Mycenaean citadels, ascribed by ancient authors to the Cyclopes.",
+        "location": "Mycenae and Tiryns, Argolid, Greece",
+        "status": "verified",
+        "analysis": "Authentic Bronze-Age (c. 1350–1200 BCE) megalithic masonry; the Cyclopean attribution is folkloric.",
+        "source": "Pausanias 2.16.5; modern archaeological consensus"
+      }
+    ],
+    "documentary": [
+      {
+        "id": "cyclops-evidence-homer-odyssey-9",
+        "type": "literary text",
+        "name": "Homer, Odyssey, Book 9",
+        "description": "Episode of Odysseus' encounter with the cyclops Polyphemus.",
+        "status": "verified",
+        "analysis": "Foundational text of the Homeric Cyclops tradition.",
+        "source": "Homer, Odyssey 9"
+      },
+      {
+        "id": "cyclops-evidence-hesiod",
+        "type": "literary text",
+        "name": "Hesiod, Theogony 139–146",
+        "description": "Genealogical and functional description of the three Cyclopes.",
+        "status": "verified",
+        "analysis": "Foundational text of the divine-smith tradition.",
+        "source": "Hesiod, Theogony"
+      }
+    ]
   },
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Dwarf-elephant skull hypothesis",
+        "description": "The myth of one-eyed giants may have arisen from the discovery on Mediterranean islands of fossil dwarf-elephant skulls, whose enlarged central nasal cavity could be misread as a single eye socket.",
+        "proponents": ["Othenio Abel (1914)", "Adrienne Mayor"],
+        "evidence_cited": ["Pleistocene dwarf-elephant skulls from Sicily, Cyprus, and Crete", "Mayor (2000), The First Fossil Hunters"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Mythological / literary phenomenon",
+        "description": "Cyclopes are a literary and religious construct of ancient Greek civilisation, not a literal animal.",
+        "proponents": ["Classical philologists (consensus)"],
+        "evidence_cited": ["Origin in Hesiod and Homer; absence of zoological evidence"]
+      },
+      {
+        "name": "Antiquarian rationalisation of Mycenaean ruins",
+        "description": "The 'wall-builder' Cyclopes tradition arose as a Greek-period explanation for Bronze-Age megalithic masonry whose construction could no longer be accounted for.",
+        "proponents": ["Ancient writer Pausanias (interpretive)", "Modern classical archaeologists"],
+        "evidence_cited": ["Pausanias 2.16.5"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Greek epic and lyric tradition",
+        "Roman epic and pastoral reception",
+        "Sicilian local folklore around Etna and Aci Trezza"
+      ],
+      "stories": [
+        "Odysseus and Polyphemus (Homer)",
+        "Polyphemus and Galatea (Theocritus, Ovid)",
+        "The Cyclopes' arming of Zeus (Hesiod)",
+        "Apollo's slaying of the Cyclopes (Apollodorus, Library 3.10.4)"
+      ],
+      "beliefs": "In antiquity, Cyclopes were treated as both mythical beings and as plausible explanations for ancient ruins; in modern reception they are generally treated as literary figures."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Odyssey, Book 9 — Homer (c. 8th century BCE)",
+        "Theogony — Hesiod (c. 700 BCE)",
+        "Cyclops — Euripides (c. 408 BCE)",
+        "Aeneid 8 — Virgil",
+        "Metamorphoses 13–14 — Ovid",
+        "The First Fossil Hunters — Adrienne Mayor (2000)"
+      ],
+      "film_tv": [
+        "The 7th Voyage of Sinbad (Ray Harryhausen, 1958)",
+        "Ulysses (Mario Camerini, 1954)",
+        "O Brother, Where Art Thou? (Coen brothers, 2000)",
+        "Percy Jackson & the Olympians: The Lightning Thief (2010)"
+      ],
+      "games": [
+        "God of War series",
+        "Assassin's Creed Odyssey",
+        "Dungeons & Dragons (since 1974)"
+      ],
+      "other": [
+        "Cyclopean masonry as an architectural term",
+        "The Cyclops in heraldic and emblematic art"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Adrienne Mayor", "affiliation": "Stanford University", "contribution": "Folklorist of fossil-myth connections; The First Fossil Hunters (2000)", "period": "1990s–present" },
+      { "name": "Othenio Abel", "affiliation": "University of Vienna (palaeontology)", "contribution": "1914 hypothesis linking cyclops myth to dwarf-elephant skulls", "period": "Early 20th century" },
+      { "name": "Walter Burkert", "affiliation": "University of Zurich (classics)", "contribution": "Comparative mythological analysis of Greek monsters", "period": "1960s–2010s" }
+    ],
+    "organizations": [
+      { "name": "American School of Classical Studies at Athens", "url": "https://www.ascsa.edu.gr", "focus": "Classical archaeology including Mycenaean sites" },
+      { "name": "British School at Athens", "url": "https://www.bsa.ac.uk", "focus": "Greek archaeology and classical studies" }
+    ],
+    "ongoing_studies": "Continuing classical-philology and archaeological work on Bronze-Age 'Cyclopean' masonry and on the literary reception of the cyclops figure."
   },
-  "sources": []
+  "sources": [
+    { "id": "homer-odyssey", "type": "book", "title": "The Odyssey", "authors": ["Homer"], "publication": "Numerous editions; standard Loeb Classical Library", "date": "c. 8th century BCE" },
+    { "id": "hesiod-theogony", "type": "book", "title": "Theogony", "authors": ["Hesiod"], "publication": "Standard Loeb Classical Library", "date": "c. 700 BCE" },
+    { "id": "euripides-cyclops", "type": "book", "title": "Cyclops", "authors": ["Euripides"], "publication": "Standard Loeb Classical Library", "date": "c. 408 BCE" },
+    { "id": "mayor-2000", "type": "book", "title": "The First Fossil Hunters: Paleontology in Greek and Roman Times", "authors": ["Adrienne Mayor"], "publication": "Princeton University Press", "date": "2000", "isbn": "978-0691089775" },
+    { "id": "wikipedia-cyclopes", "type": "website", "title": "Cyclopes", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cyclopes", "accessed": "2026-05-07" }
+  ]
 }
